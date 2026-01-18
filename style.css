@@ -29,8 +29,8 @@ header {
   z-index: 1000;
 }
 header .logo {
-  font-weight: 600;
-  font-size: 30px;
+  font-weight: 300;
+  font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
 header nav ul {
@@ -67,12 +67,16 @@ header nav ul li a:hover {
   .hambuger {
     display: flex;
     background: #fff;
+    background-color: #000;
   }
-}
-nav-link{
+  nav-link{
   display: flex;
-  background-color: #fff;
+  background-color: transparent;
+  background: none !important;
+  padding-left: 20px;
 }
+}
+
 @media (max-width: 768px){
   #hero{
     flex-direction: column;
@@ -89,6 +93,16 @@ nav-link{
   }
   .hero-img{
     margin-top: 40px;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px){
+  .socials a{
+    font-size: 18px;
+  }
+  .socials{
+    max-width: 260px;
+    margin: 0 auto;
   }
 }
 
@@ -153,11 +167,12 @@ nav-link{
 .socials {
     display: flex;
     justify-content: center;   
-    gap: 20px;                 
+    gap: 12px;                 
     margin-top: 5px;
+    flex-wrap: wrap;
 }
 .socials a {
-    font-size: 28px;        
+    font-size: 22px;        
     color: #000;        
     transition: 0.3s ease;
      
@@ -233,9 +248,10 @@ form {
   background: rgba(14, 13, 13, 0.7);
   padding: 40px;
   width: 90%;
-  max-width: 450px;
-  padding: 24px;
+  max-width: 400px;
+  padding: 20px;
   margin: 20px auto;
+  box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.6);
   color: #fff;
