@@ -124,6 +124,11 @@ body {
     max-width: 260px;
     margin: 0 auto;
   }
+  .hero-img{
+    justify-content: center;
+    flex-shrink: 1;
+    max-width: 100%;
+  }
 }
 
 /* Hero */
