@@ -14,21 +14,23 @@
 <body>
 
 <!-- Navbar -->
-<header>
+<header class="navbar">
   <div class="logo">Olivier Mukendi</div>
-  <nav>
-    <ul class="nav-links">
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#services">Skills</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </ul>
-    <div class="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+
+  <!-- Hamburger checkbox -->
+  <input type="checkbox" id="menu-toggle" />
+  <label for="menu-toggle" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <nav class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
 
@@ -68,7 +70,7 @@
 </section>
 
 <!-- Services Section -->
-<section id="services" class="fade">
+<section id="skills" class="fade">
   <h2>Services</h2>
   <div class="cards">
     <div class="card"><h4>Web Development</h4>
@@ -118,12 +120,12 @@
     <textarea id="message" name="message" placeholder="Message" required class="t"></textarea>
 
     <button type="submit">Send Message</button>
+    <a href="https://wa.me/256761901653" class="sub2">Chat with Me</a>
     <div class="socials mt-3">
   <a href="https://www.facebook.com" class="mx-2"><i class="fab fa-facebook"></i></a>
         <a href="https://github.com/Olivier-89/My-portfolio" class="mx-2"><i class="fab fa-github"></i></a>
         <a href="https://www.x.com/@VadaPro56233"><i class="fab fa-x-twitter"></i></a>
         <a href="https://www.instagram.com/" class="mx-2"><i class="fab fa-instagram"></i></a>
-        <a href="https://wa.me/256761901653" class="mx-2"><i class="fab fa-whatsapp"></i></a>
         <a href="https://www.linkedin.com/in/olivier-tech-guy-7624423a2"><i class="fab fa-linkedin"></i></a>
         <a href="https://www.tiktok.com/" class="mx-2"><i class="fab fa-tiktok"></i></a>
         
